@@ -1,2 +1,1 @@
-# sharedcalendar
-Python scripts for managing a shared calendar
+Python scripts for replicating events in a calendar.
