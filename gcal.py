@@ -81,6 +81,7 @@ if __name__ == '__main__':
     event_selector = str_list_is_none(argv[2]) if num_args > 2 else None
     command = argv[3].lower() if num_args > 3 else 'usage' if num_args == 1 else 'list'
     command_args = sorted(argv[4:]) if num_args > 4 else None
+    get_service()
 
     if command == 'copy' and command_args is None:
         command = 'usage'
